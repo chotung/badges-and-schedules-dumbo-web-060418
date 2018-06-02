@@ -10,6 +10,6 @@ end
 
 def assign_rooms(guestArr)
   room = 0
-  guestArr.each_index
+  guestArr.collect do |room|
   "Hello, #{guestArr}! You'll be assigned to rooom#{}"
 end
