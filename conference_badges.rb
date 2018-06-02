@@ -22,3 +22,7 @@ def printer(guest)
   assign_rooms.each do |guestName|
     puts guestName
   end
+end
+end
+
+
