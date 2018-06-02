@@ -10,6 +10,7 @@ end
 
 def assign_rooms(guestArr)
   room = 0
-  guestArr.collect do |name|  
+  guestArr.collect do |name|
+    room += 1
   "Hello, #{guestArr}! You'll be assigned to rooom#{room}"
 end
