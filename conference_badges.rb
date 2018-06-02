@@ -9,7 +9,7 @@ end
 end
 
 def assign_rooms(guest)
-  
-  
+  room = 0
+  each
   "Hello, #{guest}! You'll be assigned to rooom#{}"
 end
