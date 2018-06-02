@@ -1,1 +1,15 @@
-# Write your code here.
+def badge_maker(name)
+  "Hello, my name is #{name}."
+end
+
+def batch_badge_creator(arrayOfNames)
+  arrayOfNames.collect do |x|
+  badge_maker(x)
+end
+end
+
+def assign_rooms(guest)
+  rooms = [1..7]
+  
+  "Hello, #{}! You'll be assigned to rooom#{}"
+end
