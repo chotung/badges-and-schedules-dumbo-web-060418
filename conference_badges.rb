@@ -8,8 +8,8 @@ def batch_badge_creator(arrayOfNames)
 end
 end
 
-def assign_rooms(guest)
+def assign_rooms(guestArr)
   room = 0
-  each
-  "Hello, #{guest}! You'll be assigned to rooom#{}"
+  guestArr.each_index
+  "Hello, #{guestArr}! You'll be assigned to rooom#{}"
 end
