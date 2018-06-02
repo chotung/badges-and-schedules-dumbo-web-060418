@@ -9,7 +9,7 @@ end
 end
 
 def assign_rooms(guest)
-  rooms = [1..7]
   
-  "Hello, #{}! You'll be assigned to rooom#{}"
+  
+  "Hello, #{guest}! You'll be assigned to rooom#{}"
 end
